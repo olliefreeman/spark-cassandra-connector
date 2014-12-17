@@ -1,5 +1,6 @@
 1.2.0
  * Added support for TTL and timestamp in the writer (#153)
+ * Added support for UDT column types (SPARKC-1)
 
 1.1.1 (unreleased)
  * Merged bug fix for #463 from b1.0
