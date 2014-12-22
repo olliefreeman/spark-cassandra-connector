@@ -15,24 +15,23 @@
  */
 
 object Versions {
-  val Akka            = "2.2.3"// upgrade asap
+  val Akka            = "2.3.+"// upgrade asap
   val Cassandra       = "2.1.2"
   val CassandraDriver = "2.1.3"
-  val CommonsIO       = "2.4"
-  val CommonsLang3    = "3.3.2"
+  val CommonsIO       = "2.+"
+  val CommonsLang3    = "3.+"
   val Config          = "1.2.1"
-  val Guava           = "14.0.1"
+  val Guava           = "14.0.1" //TODO ivy fails if this is updated
   val JDK             = "1.7"
-  val JodaC           = "1.2"
-  val JodaT           = "2.3"
-  val JOpt            = "3.2"//4.7
+  val JodaC           = "1.+"
+  val JodaT           = "2.+"
+  val JOpt            = "4.+"
   val Kafka           = "0.8.0"// TODO issues w encoder/decoder ATM "0.8.1.1"
-  val Lzf             = "0.8.4"
-  val CodaHaleMetrics = "3.0.2"
+  val Lzf             = "0.8.4" //TODO ivy fails if this is updated
+  val CodaHaleMetrics = "3.+"
   val Scala           = "2.10.4"
   val ScalaTest       = "2.2.2"
   val Scalactic       = "2.2.2"
-  val Slf4j           = "1.7.7"
-  val Spark           = "1.1.0"
-
+  val Slf4j           = "1.7.+"
+  val Spark           = "1.1.1"
 }
